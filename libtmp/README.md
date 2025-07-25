@@ -4,5 +4,5 @@ pip install uv
 ```
 # Запуск uv
 ```
-uv run
+uv run python main.py
 ```
