@@ -13,5 +13,5 @@ dependencies = []
 libtmp = "libtmp:main"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["uv_build>=0.7.21,<0.8"]
+build-backend = "uv_build"
