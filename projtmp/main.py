@@ -1,4 +1,4 @@
-from libtmp.main import func_lib
+from libtmp.core import func_lib
 
 def main():
     lib_tmp()
