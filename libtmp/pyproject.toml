@@ -13,5 +13,5 @@ dependencies = []
 libtmp = "libtmp:main"
 
 [build-system]
-requires = ["uv_build>=0.7.21,<0.8"]
-build-backend = "uv"
+requires = ["uv>=0.1.0", "setuptools"]  
+build-backend = "setuptools.build_meta"
