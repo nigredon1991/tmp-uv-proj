@@ -1,12 +1,14 @@
-# 
-
-Добавить много файлов в libtmp.
-В разных директориях.
-Не только python-файлы. Чтобы в build попали ещё *.sh файлы.
-
-В poetry это можно сделать так:
+# Установка UV 
 ```
-[tool.poetry]
-packages = [{ include = "nam_lib" }]
-include = ["*.sh", "*.json"]
+pip install uv
+```
+## Активация пакетов
+```
+uv venv .venv
+source .venv/bin/activate
+```
+# Запуск проекта
+```
+cd /workspaces/tmp-uv-proj/projtmp
+uv run main.py
 ```
