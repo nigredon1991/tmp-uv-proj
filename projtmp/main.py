@@ -1,7 +1,10 @@
+
 from libtmp.core import func_lib
+print(func_lib())
 
 def main():
-    lib_tmp()
+    result = func_lib()  
+    print(result)  # Выводим результат функции
     print("Hello from projtmp!")
 
 
